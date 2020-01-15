@@ -1,0 +1,45 @@
+#cer {
+    margin: 50px 0px;
+}
+
+#cer h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #0c4da2;
+}
+
+#cer h3 span {
+    color: #777;
+}
+
+#cerbox {
+    padding: 20px 30px;
+}
+
+.cerimg {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.cerimg img {
+    width: 80%;
+}
+
+.cerimg span {
+    display: block;
+    color: #333;
+}
+
+@media all and (max-width:480px){
+    #cerbox {
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .cerimg {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

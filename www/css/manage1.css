@@ -1,0 +1,47 @@
+.bluetitle {
+    font-size: 1.4em;
+    color: #0c4da2;
+    margin-bottom: 10px;
+}
+
+.magB {
+    margin-bottom: 50px;
+}
+
+.list-blue {
+    margin-bottom: 50px;
+}
+
+#homepagea {
+    display: block;
+    color: #262626;
+    margin-bottom: 80px;
+}
+
+#homepagea:hover {
+    color: #0c4da2;
+}
+
+.mascot {
+    background-image: url(../images/phil_bg_0.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 10%;
+}
+
+@media all and (max-width:800px){
+    .mascot {
+        background-image: none;
+    }
+    
+    .magB {
+        margin-bottom: 10px;
+    }
+    
+    .list-blue {
+        margin-bottom: 15px;
+    }
+    
+    #homepagea {
+        margin-bottom: 50px
+    }
+}
